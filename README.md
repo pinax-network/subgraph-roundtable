@@ -28,7 +28,7 @@
 
 | Chain | Subgraph ID |
 | ----- | ----------- |
-| EOS   | [`2RNdhL5p62dGN5UqKtsSEhYZiTJbFcuuhzk9qRJj8QeU`](https://thegraph.com/explorer/subgraphs/2RNdhL5p62dGN5UqKtsSEhYZiTJbFcuuhzk9qRJj8QeU?view=Query&chain=arbitrum-one) |
+| EOS   | [`BEPBdCakjSNmQFLy8RiSYpjnsKYN58VxJ41uz6qQHy2p`](https://thegraph.com/explorer/subgraphs/BEPBdCakjSNmQFLy8RiSYpjnsKYN58VxJ41uz6qQHy2p?view=Query&chain=arbitrum-one) |
 
 ## GraphQL
 
