@@ -1,6 +1,7 @@
 .PHONY: all
 all:
 	make build
+	make create
 	make deploy
 
 .PHONY: build
@@ -10,6 +11,10 @@ build:
 .PHONY: deploy
 deploy:
 	graph deploy --node=http://localhost:8020 roundtable
+
+.PHONY: create
+create:
+	graph create --node http://localhost:8020 roundtable
 
 .PHONY: publish
 publish:
