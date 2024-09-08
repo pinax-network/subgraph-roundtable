@@ -11,6 +11,15 @@
   - [x] **Receiver**
 - [x] **DatabaseOperations**
 
+## Smart Contracts
+
+- `bbsdailyrwrd`
+- `dwebregistry`
+- `bbseosbridge`
+- `bbsbbsbbseos`
+- `bbsengagemnt`
+- `deweb.eosn`
+
 ## Subgraph
 
 - **API Key**: https://thegraph.com/studio/apikeys/
