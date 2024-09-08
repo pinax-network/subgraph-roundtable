@@ -1,19 +1,19 @@
 specVersion: 1.2.0
-description: WAX Transactions, Decoded Actions & Database Operations
-repository: https://github.com/pinax-network/antelope-transactions-subgraph
+description: Roundtable Transactions, Decoded Actions & Database Operations
+repository: https://github.com/pinax-network/subgraph-roundtable
 schema:
   file: schema.graphql
 indexerHints:
   prune: 2419200 # 14 days (2 blocks per second)
 dataSources:
   - kind: substreams
-    name: wax_transactions
-    network: wax
+    name: roundtable
+    network: eos
     source:
       startBlock: 328310476
       package:
         moduleName: graph_out
-        # params: "code:eosio.token"
+        params: "(code:bbsdailyrwrd||code:dwebregistry||code:bbseosbridge||code:bbsbbsbbseos||code:bbsengagemnt||code:deweb.eosn)&&(notif:false)"
         file: antelope-transactions-v0.3.7.spkg
     mapping:
       kind: substreams/graph-entities
