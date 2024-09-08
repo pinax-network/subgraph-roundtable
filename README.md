@@ -6,10 +6,10 @@
 
 - [x] **Blocks**
 - [x] **Transactions**
-  - [x] **DatabaseOperations**
 - [x] **Actions**
   - [x] **Authorization**
   - [x] **Receiver**
+- [x] **DatabaseOperations**
 
 ## Subgraph
 
