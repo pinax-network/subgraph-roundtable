@@ -47,6 +47,7 @@
     account
     name
     jsonData
+    globalSequence
     dbOps {
       code
       tableName
