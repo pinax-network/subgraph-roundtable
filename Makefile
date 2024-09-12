@@ -1,8 +1,6 @@
 .PHONY: all
 all:
 	make build
-	make create
-	make deploy
 
 .PHONY: build
 build:
@@ -10,11 +8,9 @@ build:
 
 .PHONY: deploy
 deploy:
-	graph deploy --node=http://localhost:8020 roundtable
-
-.PHONY: create
-create:
+	graph build
 	graph create --node http://localhost:8020 roundtable
+	graph deploy --node=http://localhost:8020 roundtable
 
 .PHONY: publish
 publish:
@@ -23,4 +19,4 @@ publish:
 
 .PHONY: gui
 gui:
-	substreams gui antelope-transactions-v0.3.7.spkg -e eos.substreams.pinax.network:443 graph_out -s 387995902 --production-mode --params "graph_out=(code:bbsdailyrwrd || code:dwebregistry||code:bbseosbridge || code:bbsbbsbbseos || code:bbsengagemnt || code:deweb.eosn) && (notif:false)"
+	substreams gui ./substreams/antelope-transactions-v0.4.2.spkg -e eos.substreams.pinax.network:443 graph_out -s 387995902 --production-mode --params "graph_out=code:bbsdailyrwrd || code:dwebregistry || code:bbseosbridge || code:bbsbbsbbseos || code:bbsengagemnt || code:deweb.eosn"

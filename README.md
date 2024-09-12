@@ -33,12 +33,13 @@
 ```graphql
 {
   actions(
-    orderBy: block__number
-    orderDirection: desc
+    orderBy: globalSequence
+    orderDirection: asc
+    first:20
   ) {
     block{
       number
-      time
+      timestamp
     }
     transaction {
       id
