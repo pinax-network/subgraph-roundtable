@@ -36,6 +36,10 @@
     orderBy: globalSequence
     orderDirection: asc
     first:20
+    where:{
+      name:"ledgerprint"
+      globalSequence_gt:361417757518
+    }
   ) {
     block{
       number
@@ -48,6 +52,7 @@
     name
     jsonData
     globalSequence
+    receiver
     dbOps {
       code
       tableName
