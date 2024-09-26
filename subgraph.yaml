@@ -10,11 +10,11 @@ dataSources:
     name: roundtable
     network: eos
     source:
-      startBlock: 391448823
+      startBlock: 393779876
       package:
         moduleName: graph_out
         params: "code:bbsdailyrwrd || code:dwebregistry || code:bbseosbridge || code:bbsbbsbbseos || code:bbsengagemnt || code:deweb.eosn"
-        file: ./substreams/antelope-transactions-v0.4.2.spkg
+        file: ./substreams/antelope-transactions-v0.5.0.spkg
     mapping:
       kind: substreams/graph-entities
       apiVersion: 0.0.5
