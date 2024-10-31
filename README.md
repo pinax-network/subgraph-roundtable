@@ -62,3 +62,11 @@
   }
 }
 ```
+
+## Subgraph deployment
+
+```bash
+$ ./shell cli
+graph indexer rules prepare --network arbitrum-one QmWiivncZD2HHRKymf4ArQYQr7jRhZ6kWw2pFxD3nB8p8m
+graph indexer allocations create QmWiivncZD2HHRKymf4ArQYQr7jRhZ6kWw2pFxD3nB8p8m arbitrum-one 100
+```
