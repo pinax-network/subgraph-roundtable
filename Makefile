@@ -19,4 +19,4 @@ publish:
 
 .PHONY: gui
 gui:
-	substreams gui ./substreams/antelope-transactions-v0.5.0.spkg -e eos.substreams.pinax.network:443 graph_out --production-mode -s 393779876 -t 0 --production-mode --params "graph_out=code:bbsdailyrwrd || code:dwebregistry || code:bbseosbridge || code:bbsbbsbbseos || code:bbsengagemnt || code:deweb.eosn"
+	substreams gui ./substreams/antelope-transactions-v0.5.0.spkg -e eos.substreams.pinax.network:443 graph_out --production-mode -s 400000000 -t 0 --production-mode --params "graph_out=receiver:bbsdailyrwrd || receiver:dwebregistry || receiver:bbseosbridge || receiver:bbsbbsbbseos || receiver:bbsengagemnt || receiver:deweb.eosn"
